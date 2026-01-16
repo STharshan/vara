@@ -20,7 +20,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50  backdrop-blur-md bg-[#242427]/95 dark:backdrop-blur-md text-white font-semibold shadow-lg">
+    <nav className="fixed top-0 left-0 w-full z-50  backdrop-blur-md bg-[#242427]/95  text-white font-semibold shadow-lg">
       {/* Optional: Shine/gradient overlay for dark mode */}
       <div className="hidden dark:block absolute inset-0 pointer-events-none bg-gradient-to-br from-white/10 to-black/80" />
 
